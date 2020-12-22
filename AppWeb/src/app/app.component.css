@@ -1,0 +1,21 @@
+.wrapper {
+    height: 100vh;
+    /*display: flex;*/
+    /*align-items: center;*/
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+.nada {
+    width: auto;
+    height: 320px;
+    overflow: auto;
+}
+
+.ooo {
+    width: auto;
+    height: auto;
+    overflow: auto;
+}
