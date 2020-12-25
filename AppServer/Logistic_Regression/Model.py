@@ -6,23 +6,34 @@ from __future__ import print_function
 import numpy as np
 from Logistic_Regression.Data import Data
 
-STEP = 10 #Cada cuánto va a agregar a la bitácora el costo. Lo hace cuando es múltiplo del valor que se le da
+#self.MAX_ITERATIONS = 15000
+#self.MIN_VALUE = 0.1
+#self.STEP = 100
+
+#self.MAX_ITERATIONS = 15000
+#self.MIN_VALUE = 0.1
+#self.STEP = 10 #Cada cuánto va a agregar a la bitácora el costo. Lo hace cuando es múltiplo del valor que se le da
+
+
 
 class Model:
 
-    def __init__(self, train_set, test_set, reg, alpha, lam, max_iterations=10000, min_value=0.1):
+    def __init__(self, train_set, test_set, reg, alpha, lam, max_iterations):
         # Se extraen las constantes
+        self.MAX_ITERATIONS = max_iterations
+        self.MIN_VALUE = 0.1
+        self.STEP = 10
         self.alpha = alpha
         self.lam = lam
         self.reg = reg
         self.train_set = train_set
         self.test_set = test_set
-        self.max_iterations = max_iterations
-        self.min_value = min_value
         # Se inicializan los coeficientes del modelo
         self.betas = np.zeros((self.train_set.n, 1))
         #print(self.betas)
         self.bitacora = []
+        self.train_accuracy = 0
+        self.test_accuracy = 0
 
     def training(self, print_training=False, step=100):
         iterations = 0
@@ -38,7 +49,7 @@ class Model:
 
         train_prediction = self.predict(self.train_set.x)
         test_prediction = self.predict(self.test_set.x)
-
+        
         self.train_accuracy = 100 - np.mean(np.abs(train_prediction - self.train_set.y)) * 100
         self.test_accuracy = 100 - np.mean(np.abs(test_prediction - self.test_set.y)) * 100
         print('Eficacia en entrenamiento: ', self.train_accuracy)
@@ -48,11 +59,11 @@ class Model:
         self.betas -= self.alpha * gradient
 
     def finalization(self, cost, iterations):
-        if iterations % STEP == 0: self.bitacora.append(cost)
+        if iterations % self.STEP == 0: self.bitacora.append(cost)
         
-        if cost < self.min_value:
+        if cost < self.MIN_VALUE:
             return True
-        elif iterations > self.max_iterations:
+        elif iterations > self.MAX_ITERATIONS:
             return True
         else:
             return False

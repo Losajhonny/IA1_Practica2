@@ -8,8 +8,10 @@ def show_picture(pixels):
 
 
 def show_Model(models):
-    for model in models:
-        chart.plot(model.bitacora, label=str(model.alpha))
+    for i in range(len(models)):
+        model = models[i]
+        label = "Modelo " + str(i+1) + ", alpha " + str(model.alpha)
+        chart.plot(model.bitacora, label=label)
     chart.ylabel('Costo')
     chart.xlabel('Iteraciones')
     legend = chart.legend(loc='upper center', shadow=True)

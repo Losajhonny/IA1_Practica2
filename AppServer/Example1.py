@@ -15,10 +15,10 @@ train_set = Data(train_set_x, train_set_y, 100)
 test_set = Data(test_set_x, test_set_y, 100)
 
 # Se entrenan los modelos
-model1 = Model(train_set, test_set, reg=False, alpha=0.5, lam=0.5)
+model1 = Model(train_set, test_set, reg=False, alpha=0.5, lam=0.5, max_iterations=10000)
 model1.training()
 
-model2 = Model(train_set, test_set, reg=False, alpha=0.05, lam=150)
+model2 = Model(train_set, test_set, reg=False, alpha=0.05, lam=150, max_iterations=10000)
 model2.training()
 
 # Se grafican los entrenamientos
@@ -34,6 +34,9 @@ for exam in exams:
 
 print('p: ', p)
 grades = np.array(p)
+print(grades)
+
 print('grades: ', grades)
 result = model1.predict(grades)
+print(result)
 print('--', classes[result[0]], '--')
