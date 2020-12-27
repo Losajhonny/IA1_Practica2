@@ -47,7 +47,7 @@ class Generacion:
         trai_set = Data(trai_set_x, trai_set_y, 255)
         test_set = Data(test_set_x, test_set_y, 255)
 
-        modelo1 = Model(trai_set, test_set, reg=False, alpha=0.00001, lam=7, max_iterations=900)
+        modelo1 = Model(trai_set, test_set, reg=False, alpha=0.00001, lam=7, max_iterations=1500)
         modelo1.training(print_training=False)
 
         modelo2 = Model(trai_set, test_set, reg=False, alpha=0.25, lam=0.01, max_iterations=500)
@@ -56,7 +56,7 @@ class Generacion:
         modelo3 = Model(trai_set, test_set, reg=False, alpha=0.005, lam=0.005, max_iterations=450)
         modelo3.training(print_training=False)
 
-        modelo4 = Model(trai_set, test_set, reg=False, alpha=0.0000001, lam=180, max_iterations=1000)
+        modelo4 = Model(trai_set, test_set, reg=False, alpha=0.0000001, lam=180, max_iterations=2000)
         modelo4.training(print_training=False)
 
         modelo5 = Model(trai_set, test_set, reg=False, alpha=0.1, lam=120, max_iterations=800)
