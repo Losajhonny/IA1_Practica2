@@ -1,5 +1,12 @@
+from Logistic_Regression.Model import Model
+
 class Singleton:
     __instance = None
+
+    modelo_usac = None
+    modelo_mariano = None
+    modelo_marroquin = None
+    modelo_landivar = None
     
     @staticmethod
     def getInstance():

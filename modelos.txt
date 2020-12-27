@@ -1,318 +1,192 @@
 #####################################################
-Modelos Usac
+Modelos USAC
 Modelo 1
-Entrenamiento 79.93527508090615
-Validacion 82.70676691729324
+Entrenamiento 80.91
+Validacion 76.69
+
 Modelo 2
-Entrenamiento 93.52750809061489
-Validacion 86.46616541353383
+Entrenamiento 96.12
+Validacion 89.47
+
 Modelo 3
-Entrenamiento 93.85113268608414
-Validacion 87.21804511278195
+Entrenamiento 96.76
+Validacion 93.23
+
 Modelo 4
-Entrenamiento 94.49838187702265
-Validacion 87.21804511278195
+Entrenamiento 72.82
+Validacion 72.18
+
 Modelo 5
-Entrenamiento 94.49838187702265
-Validacion 92.4812030075188
+Entrenamiento 94.82
+Validacion 85.71
+
 #####################################################
 
 #####################################################
 Modelos Marroquin
 Modelo 1
-Entrenamiento 84.78964401294499
-Validacion 82.70676691729324
+Entrenamiento 84.47
+Validacion 87.22
+
 Modelo 2
-Entrenamiento 93.85113268608414
-Validacion 83.45864661654136
+Entrenamiento 96.76
+Validacion 91.73
+
 Modelo 3
-Entrenamiento 97.41100323624596
-Validacion 90.97744360902256
+Entrenamiento 98.06
+Validacion 93.98
+
 Modelo 4
-Entrenamiento 98.38187702265373
-Validacion 93.98496240601504
+Entrenamiento 71.84
+Validacion 78.2
+
 Modelo 5
-Entrenamiento 95.79288025889967
-Validacion 90.97744360902256
+Entrenamiento 99.03
+Validacion 92.48
+
 #####################################################
 
 #####################################################
 Modelos Landivar
 Modelo 1
-Entrenamiento 73.7864077669903
-Validacion 80.45112781954887
+Entrenamiento 75.73
+Validacion 75.19
+
 Modelo 2
-Entrenamiento 93.20388349514563
-Validacion 74.43609022556392
+Entrenamiento 81.23
+Validacion 63.91
+
 Modelo 3
-Entrenamiento 94.49838187702265
-Validacion 81.95488721804512
+Entrenamiento 94.5
+Validacion 89.47
+
 Modelo 4
-Entrenamiento 97.41100323624596
-Validacion 87.21804511278195
+Entrenamiento 76.7
+Validacion 75.19
+
 Modelo 5
-Entrenamiento 99.35275080906149
-Validacion 84.9624060150376
+Entrenamiento 96.12
+Validacion 85.71
+
 #####################################################
 
 #####################################################
 Modelos Mariano
 Modelo 1
-Entrenamiento 82.84789644012945
-Validacion 75.18796992481202
+Entrenamiento 81.55
+Validacion 78.95
+
 Modelo 2
-Entrenamiento 98.05825242718447
-Validacion 90.97744360902256
+Entrenamiento 98.06
+Validacion 89.47
+
 Modelo 3
-Entrenamiento 98.05825242718447
-Validacion 91.72932330827068
+Entrenamiento 98.06
+Validacion 90.98
+
 Modelo 4
-Entrenamiento 97.0873786407767
-Validacion 92.4812030075188
+Entrenamiento 77.99
+Validacion 75.94
+
 Modelo 5
-Entrenamiento 99.35275080906149
-Validacion 90.22556390977444
+Entrenamiento 99.35
+Validacion 88.72
+
 #####################################################
 
 #####################################################
-Modelos Usac
+Modelos USAC
 Modelo 1
-Entrenamiento 100.0
-Validacion 85.71428571428572
+Entrenamiento 81.82
+Validacion 75.18
+
 Modelo 2
-Entrenamiento 100.0
-Validacion 83.45864661654136
+Entrenamiento 84.95
+Validacion 70.8
+
 Modelo 3
-#####################################################
-Modelos Usac
-Modelo 1
-Entrenamiento 79.6116504854369
-Validacion 78.19548872180451
-Modelo 2
-Entrenamiento 89.96763754045307
-Validacion 85.71428571428572
-Modelo 3
-Entrenamiento 95.46925566343042
-Validacion 87.96992481203007
+Entrenamiento 95.92
+Validacion 86.13
+
 Modelo 4
-Entrenamiento 96.76375404530745
-Validacion 80.45112781954887
+Entrenamiento 73.98
+Validacion 72.26
+
 Modelo 5
-Entrenamiento 94.1747572815534
-Validacion 83.45864661654136
+Entrenamiento 94.36
+Validacion 83.94
+
 #####################################################
 
 #####################################################
 Modelos Marroquin
 Modelo 1
-Entrenamiento 83.81877022653723
-Validacion 85.71428571428572
+Entrenamiento 81.82
+Validacion 83.94
+
 Modelo 2
-Entrenamiento 97.73462783171522
-Validacion 90.22556390977444
+Entrenamiento 96.55
+Validacion 92.7
+
 Modelo 3
-Entrenamiento 98.38187702265373
-Validacion 93.23308270676692
+Entrenamiento 96.55
+Validacion 90.51
+
 Modelo 4
-Entrenamiento 98.05825242718447
-Validacion 95.48872180451127
+Entrenamiento 73.67
+Validacion 76.64
+
 Modelo 5
-Entrenamiento 90.61488673139158
-Validacion 82.70676691729324
+Entrenamiento 94.04
+Validacion 89.78
+
 #####################################################
 
 #####################################################
 Modelos Landivar
 Modelo 1
-Entrenamiento 75.40453074433657
-Validacion 75.93984962406014
+Entrenamiento 76.8
+Validacion 75.91
+
 Modelo 2
-Entrenamiento 86.08414239482201
-Validacion 76.69172932330827
+Entrenamiento 94.67
+Validacion 90.51
+
 Modelo 3
-Entrenamiento 73.13915857605178
-Validacion 66.91729323308272
+Entrenamiento 94.67
+Validacion 89.05
+
 Modelo 4
-Entrenamiento 95.46925566343042
-Validacion 90.97744360902256
+Entrenamiento 77.12
+Validacion 76.64
+
 Modelo 5
-Entrenamiento 95.14563106796116
-Validacion 90.97744360902256
+Entrenamiento 94.98
+Validacion 91.97
+
 #####################################################
 
 #####################################################
 Modelos Mariano
 Modelo 1
-Entrenamiento 81.87702265372168
-Validacion 78.94736842105263
-Modelo 2
-Entrenamiento 98.70550161812298
-Validacion 89.47368421052632
-Modelo 3
-Entrenamiento 98.70550161812298
-Validacion 87.96992481203007
-Modelo 4
-Entrenamiento 98.38187702265373
-Validacion 90.22556390977444
-Modelo 5
-Entrenamiento 97.73462783171522
-Validacion 86.46616541353383
-#####################################################
-
-#####################################################
-Modelos Usac
-Modelo 1
-Entrenamiento 82.20064724919094
-Validacion 81.203007518797
-Modelo 2
-Entrenamiento 95.46925566343042
-Validacion 87.96992481203007
-Modelo 3
-Entrenamiento 96.11650485436893
-Validacion 85.71428571428572
-Modelo 4
-Entrenamiento 97.41100323624596
-Validacion 87.21804511278195
-Modelo 5
-Entrenamiento 86.08414239482201
-Validacion 74.43609022556392
-#####################################################
-
-#####################################################
-Modelos Marroquin
-Modelo 1
-Entrenamiento 84.14239482200648
-Validacion 81.95488721804512
-Modelo 2
-Entrenamiento 99.35275080906149
-Validacion 90.22556390977444
-Modelo 3
-Entrenamiento 99.02912621359224
-Validacion 91.72932330827068
-Modelo 4
-Entrenamiento 98.05825242718447
-Validacion 93.98496240601504
-Modelo 5
-Entrenamiento 99.67637540453075
-Validacion 90.97744360902256
-#####################################################
-
-#####################################################
-Modelos Landivar
-Modelo 1
-Entrenamiento 76.69902912621359
-Validacion 73.6842105263158
-Modelo 2
-Entrenamiento 89.64401294498381
-Validacion 79.69924812030075
-Modelo 3
-Entrenamiento 93.52750809061489
-Validacion 85.71428571428572
-Modelo 4
-Entrenamiento 95.46925566343042
-Validacion 90.22556390977444
-Modelo 5
-Entrenamiento 94.1747572815534
-Validacion 86.46616541353383
-#####################################################
-
-#####################################################
-Modelos Mariano
-Modelo 1
-Entrenamiento 82.52427184466019
-Validacion 75.18796992481202
-Modelo 2
-Entrenamiento 96.11650485436893
-Validacion 89.47368421052632
-Modelo 3
-Entrenamiento 89.32038834951456
-Validacion 84.9624060150376
-Modelo 4
-Entrenamiento 99.02912621359224
-Validacion 93.98496240601504
-Modelo 5
-Entrenamiento 98.70550161812298
-Validacion 91.72932330827068
-#####################################################
-
-#####################################################
-Modelos Usac
-Modelo 1
-Entrenamiento 80.2588996763754
-Validacion 74.43609022556392
-Modelo 2
-Entrenamiento 86.08414239482201
-Validacion 82.70676691729324
-Modelo 3
-Entrenamiento 90.93851132686083
-Validacion 86.46616541353383
-Modelo 4
-Entrenamiento 97.41100323624596
-Validacion 88.7218045112782
-Modelo 5
-Entrenamiento 95.79288025889967
-Validacion 89.47368421052632
-#####################################################
-
-#####################################################
-Modelos Marroquin
-Modelo 1
-Entrenamiento 85.76051779935275
-Validacion 79.69924812030075
-Modelo 2
-Entrenamiento 99.35275080906149
-Validacion 87.21804511278195
-Modelo 3
-Entrenamiento 99.67637540453075
-Validacion 87.96992481203007
-Modelo 4
-Entrenamiento 98.38187702265373
-Validacion 93.23308270676692
-Modelo 5
-Entrenamiento 100.0
-Validacion 87.21804511278195
-#####################################################
-
-#####################################################
-Modelos Landivar
-Modelo 1
-Entrenamiento 75.40453074433657
-Validacion 76.69172932330827
-Modelo 2
-Entrenamiento 81.22977346278317
-Validacion 72.93233082706767
-Modelo 3
-Entrenamiento 82.20064724919094
-Validacion 73.6842105263158
-Modelo 4
-Entrenamiento 95.79288025889967
-Validacion 86.46616541353383
-Modelo 5
-Entrenamiento 86.73139158576052
-Validacion 77.44360902255639
-#####################################################
-
-#####################################################
-Modelos Mariano
-Modelo 1
-Entrenamiento 79.6116504854369
-Validacion 81.203007518797
+Entrenamiento 81.19
+Validacion 81.02
 
 Modelo 2
-Entrenamiento 98.05825242718447
-Validacion 90.22556390977444
+Entrenamiento 90.6
+Validacion 86.13
 
 Modelo 3
-Entrenamiento 97.0873786407767
-Validacion 90.22556390977444
+Entrenamiento 93.42
+Validacion 85.4
 
 Modelo 4
-Entrenamiento 98.38187702265373
-Validacion 90.97744360902256
+Entrenamiento 77.43
+Validacion 79.56
 
 Modelo 5
-Entrenamiento 98.70550161812298
-Validacion 90.97744360902256
+Entrenamiento 97.49
+Validacion 86.86
 
 #####################################################
 

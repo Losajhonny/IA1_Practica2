@@ -52,8 +52,8 @@ class Model:
         
         self.train_accuracy = 100 - np.mean(np.abs(train_prediction - self.train_set.y)) * 100
         self.test_accuracy = 100 - np.mean(np.abs(test_prediction - self.test_set.y)) * 100
-        print('Eficacia en entrenamiento: ', self.train_accuracy)
-        print('Eficacia en prueba: ', self.test_accuracy, end='\r\n------------\r\n')
+        #print('Eficacia en entrenamiento: ', self.train_accuracy)
+        #print('Eficacia en prueba: ', self.test_accuracy, end='\r\n------------\r\n')
 
     def update_coefficients(self, gradient):
         self.betas -= self.alpha * gradient
