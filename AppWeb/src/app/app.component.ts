@@ -9,10 +9,10 @@ export class AppComponent {
     title = 'AppWeb';
     isFive = false;
     imagenes = [];
-    modelos = [{ name: "Usac", exactitud: "80 %" },
-                { name: "Mariano", exactitud: "70 %" },
-                { name: "Landivar", exactitud: "45 %" },
-                { name: "Marroquin", exactitud: "90 %" }];
+    modelos = [{ name: "Usac", exactitud: "0 %" },
+                { name: "Mariano", exactitud: "0 %" },
+                { name: "Landivar", exactitud: "0 %" },
+                { name: "Marroquin", exactitud: "0 %" }];
 
     constructor() {
         this.isFive = true;
