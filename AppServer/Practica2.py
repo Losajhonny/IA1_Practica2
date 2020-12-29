@@ -120,6 +120,11 @@ def generarModelo():
     Singleton.getInstance().modelo_mariano = mejor_mariano[0]
     Singleton.getInstance().modelo_landivar = mejor_landivar[0]
 
+    Plotter.show_Model(gen.modelos_usac, "Modelos Usac")
+    Plotter.show_Model(gen.modelos_marroquin, "Modelos Marroquin")
+    Plotter.show_Model(gen.modelos_mariano, "Modelos Mariano")
+    Plotter.show_Model(gen.modelos_landivar, "Modelos Landivar")
+
     #print(Singleton.getInstance().modelo_usac.train_accuracy)
     #print(Singleton.getInstance().modelo_marroquin.train_accuracy)
     #print(Singleton.getInstance().modelo_mariano.train_accuracy)
