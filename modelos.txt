@@ -1,192 +1,192 @@
 #####################################################
 Modelos USAC
 Modelo 1
-Entrenamiento 85.76
-Validacion 86.47
+Entrenamiento 86.08
+Validacion 84.96
 
 Modelo 2
-Entrenamiento 91.59
-Validacion 87.97
+Entrenamiento 92.23
+Validacion 89.47
 
 Modelo 3
-Entrenamiento 87.7
-Validacion 87.97
+Entrenamiento 93.85
+Validacion 88.72
 
 Modelo 4
-Entrenamiento 70.87
-Validacion 76.69
+Entrenamiento 71.52
+Validacion 75.19
 
 Modelo 5
-Entrenamiento 92.56
-Validacion 88.72
+Entrenamiento 91.91
+Validacion 87.22
 
 #####################################################
 
 #####################################################
 Modelos Marroquin
 Modelo 1
-Entrenamiento 91.26
-Validacion 81.95
+Entrenamiento 89.64
+Validacion 88.72
 
 Modelo 2
-Entrenamiento 99.03
-Validacion 91.73
+Entrenamiento 100.0
+Validacion 84.21
 
 Modelo 3
 Entrenamiento 98.71
-Validacion 93.98
+Validacion 94.74
 
 Modelo 4
-Entrenamiento 75.08
-Validacion 70.68
+Entrenamiento 72.82
+Validacion 75.94
 
 Modelo 5
-Entrenamiento 99.68
-Validacion 90.23
+Entrenamiento 100.0
+Validacion 85.71
 
 #####################################################
 
 #####################################################
 Modelos Landivar
 Modelo 1
-Entrenamiento 76.7
-Validacion 72.93
+Entrenamiento 73.14
+Validacion 81.2
 
 Modelo 2
-Entrenamiento 92.88
-Validacion 85.71
+Entrenamiento 94.17
+Validacion 89.47
 
 Modelo 3
-Entrenamiento 95.47
-Validacion 86.47
+Entrenamiento 94.17
+Validacion 88.72
 
 Modelo 4
-Entrenamiento 77.02
-Validacion 74.44
+Entrenamiento 73.79
+Validacion 81.95
 
 Modelo 5
-Entrenamiento 95.47
-Validacion 88.72
+Entrenamiento 96.76
+Validacion 90.23
 
 #####################################################
 
 #####################################################
 Modelos Mariano
 Modelo 1
-Entrenamiento 86.73
-Validacion 81.2
+Entrenamiento 84.79
+Validacion 84.21
 
 Modelo 2
-Entrenamiento 97.09
-Validacion 90.23
+Entrenamiento 89.0
+Validacion 89.47
 
 Modelo 3
-Entrenamiento 95.47
-Validacion 91.73
+Entrenamiento 93.2
+Validacion 89.47
 
 Modelo 4
 Entrenamiento 77.35
 Validacion 77.44
 
 Modelo 5
-Entrenamiento 85.44
-Validacion 78.95
+Entrenamiento 90.29
+Validacion 90.23
 
 #####################################################
 
 #####################################################
 Modelos USAC
 Modelo 1
-Entrenamiento 86.08
-Validacion 81.95
+Entrenamiento 84.79
+Validacion 81.2
 
 Modelo 2
-Entrenamiento 89.0
-Validacion 84.21
+Entrenamiento 95.79
+Validacion 90.23
 
 Modelo 3
-Entrenamiento 91.59
-Validacion 86.47
+Entrenamiento 95.47
+Validacion 87.22
 
 Modelo 4
-Entrenamiento 74.43
-Validacion 68.42
+Entrenamiento 74.76
+Validacion 67.67
 
 Modelo 5
-Entrenamiento 91.59
-Validacion 76.69
+Entrenamiento 92.23
+Validacion 80.45
 
 #####################################################
 
 #####################################################
 Modelos Marroquin
 Modelo 1
-Entrenamiento 88.03
-Validacion 86.47
+Entrenamiento 89.0
+Validacion 87.22
 
 Modelo 2
-Entrenamiento 99.03
-Validacion 90.98
+Entrenamiento 93.53
+Validacion 86.47
 
 Modelo 3
-Entrenamiento 97.73
-Validacion 92.48
+Entrenamiento 98.06
+Validacion 90.23
 
 Modelo 4
-Entrenamiento 74.11
-Validacion 72.93
+Entrenamiento 72.49
+Validacion 76.69
 
 Modelo 5
-Entrenamiento 99.03
-Validacion 90.23
+Entrenamiento 91.91
+Validacion 88.72
 
 #####################################################
 
 #####################################################
 Modelos Landivar
 Modelo 1
-Entrenamiento 78.32
-Validacion 72.18
+Entrenamiento 79.94
+Validacion 67.67
 
 Modelo 2
-Entrenamiento 95.15
-Validacion 90.98
+Entrenamiento 84.47
+Validacion 71.43
 
 Modelo 3
-Entrenamiento 95.15
-Validacion 91.73
+Entrenamiento 95.47
+Validacion 86.47
 
 Modelo 4
-Entrenamiento 77.67
-Validacion 72.93
+Entrenamiento 79.29
+Validacion 69.17
 
 Modelo 5
-Entrenamiento 90.29
-Validacion 80.45
+Entrenamiento 92.23
+Validacion 78.2
 
 #####################################################
 
 #####################################################
 Modelos Mariano
 Modelo 1
-Entrenamiento 85.11
-Validacion 85.71
+Entrenamiento 84.14
+Validacion 86.47
 
 Modelo 2
-Entrenamiento 97.73
-Validacion 90.98
+Entrenamiento 91.91
+Validacion 81.2
 
 Modelo 3
-Entrenamiento 97.41
-Validacion 91.73
+Entrenamiento 92.88
+Validacion 89.47
 
 Modelo 4
 Entrenamiento 77.35
 Validacion 77.44
 
 Modelo 5
-Entrenamiento 96.12
-Validacion 90.98
+Entrenamiento 97.73
+Validacion 87.97
 
 #####################################################
 

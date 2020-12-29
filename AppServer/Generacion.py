@@ -77,9 +77,12 @@ class Generacion:
         data = Data(nx, ny)
 
         predict = modelo.predict(data.x)
-        npredict = 100 - np.mean(np.abs(predict - data.y)) * 100
+        #npredict = 100 - np.mean(np.abs(predict - data.y)) * 100
+
+        #print(predict)
+        #print(predict[0][0])
         
-        if npredict == 100:
+        if predict == 1:
             return True
         return False
 

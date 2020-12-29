@@ -27,10 +27,13 @@ def analizar():
     #recuperar notas
     dataImages = data['images']
 
-    noUsac = 0
-    noMariano = 0
-    noMarroquin = 0
-    noLandivar = 0
+    posUsac = 0
+    posMariano = 1
+    posMarroquin = 2
+    posLandivar = 3
+
+    totales = [0, 0, 0, 0]
+    numeros = [0, 0, 0, 0]
     
     predicciones = []
     porcentajes = []
@@ -51,34 +54,45 @@ def analizar():
 
         nombrePrediccion = ""
 
+        if name == "usac":
+            totales[posUsac] += 1
+        elif name == "mariano":
+            totales[posMariano] += 1
+        elif name == "marroquin":
+            totales[posMarroquin] += 1
+        elif name == "landivar":
+            totales[posLandivar] += 1
+
         if pusac:
             nombrePrediccion = "Usac"
             if name == "usac":
-                noUsac += 1
-        if pmari:
+                numeros[posUsac] += 1
+        elif pmari:
             nombrePrediccion = "Mariano"
             if name == "mariano":
-                noMariano += 1
-        if pmarr:
+                numeros[posMariano] += 1
+        elif pmarr:
             nombrePrediccion = "Marroquin"
             if name == "marroquin":
-                noMarroquin += 1
-        if pland:
+                numeros[posMarroquin] += 1
+        elif pland:
             nombrePrediccion = "Landivar"
             if name == "landivar":
-                noLandivar += 1
+                numeros[posLandivar] += 1
+        else:
+            nombrePrediccion = "Prediccion no encontrada"
 
         predicciones.append([nombrePrediccion, [pusac, pmari, pmarr, pland]])
     
-    #print((noUsac / len(dataImages)) * 100)
-    #print((noMariano / len(dataImages)) * 100)
-    #print((noMarroquin / len(dataImages)) * 100)
-    #print((noLandivar / len(dataImages)) * 100)
+    porUsac = (numeros[posUsac] / (1 if totales[posUsac] == 0 else totales[posUsac])) * 100
+    porMari = (numeros[posMariano] / (1 if totales[posMariano] == 0 else totales[posMariano])) * 100
+    porMarr = (numeros[posMarroquin] / (1 if totales[posMarroquin] == 0 else totales[posMarroquin])) * 100
+    porLand = (numeros[posLandivar] / (1 if totales[posLandivar] == 0 else totales[posLandivar])) * 100
     
-    porcentajes.append(['Usac', (noUsac / len(dataImages)) * 100])
-    porcentajes.append(['Mariano', (noMariano / len(dataImages)) * 100])
-    porcentajes.append(['Landivar', (noLandivar / len(dataImages)) * 100])
-    porcentajes.append(['Marroquin', (noMarroquin / len(dataImages)) * 100])
+    porcentajes.append(['Usac', porUsac])
+    porcentajes.append(['Mariano', porMari])
+    porcentajes.append(['Landivar', porLand])
+    porcentajes.append(['Marroquin', porMarr])
 
     #respuesta
     return jsonify({ 'status' : '200', 'predicciones': predicciones, 'porcentajes': porcentajes })
