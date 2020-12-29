@@ -22,10 +22,10 @@ class Generacion:
             self.actualizarModelos(uni, porcentaje)
 
         #seleccionar mejores modelos
-        self.mejor_usac = sorted(self.modelos_usac, key= lambda item: item.test_accuracy, reverse=True)
-        self.mejor_marroquin = sorted(self.modelos_marroquin, key= lambda item: item.test_accuracy, reverse=True)
-        self.mejor_mariano = sorted(self.modelos_mariano, key= lambda item: item.test_accuracy, reverse=True)
-        self.mejor_landivar = sorted(self.modelos_landivar, key= lambda item: item.test_accuracy, reverse=True)
+        #self.mejor_usac = sorted(self.modelos_usac, key= lambda item: (item.test_accuracy), reverse=True)
+        #self.mejor_marroquin = sorted(self.modelos_marroquin, key= lambda item: (item.test_accuracy), reverse=True)
+        #self.mejor_mariano = sorted(self.modelos_mariano, key= lambda item: (item.test_accuracy), reverse=True)
+        #self.mejor_landivar = sorted(self.modelos_landivar, key= lambda item: (item.test_accuracy), reverse=True)
 
     def graficarModelos(self, modelos):
         Plotter.show_Model(modelos)

@@ -103,10 +103,22 @@ def generarModelo():
     gen = Generacion()
     gen.generar(0.70)
 
-    Singleton.getInstance().modelo_usac = gen.mejor_usac[0]
-    Singleton.getInstance().modelo_marroquin = gen.mejor_marroquin[0]
-    Singleton.getInstance().modelo_mariano = gen.mejor_mariano[0]
-    Singleton.getInstance().modelo_landivar = gen.mejor_landivar[0]
+    mejor_usac = sorted(gen.modelos_usac, key= lambda item: (item.test_accuracy), reverse=True)
+    mejor_marroquin = sorted(gen.modelos_marroquin, key= lambda item: (item.test_accuracy), reverse=True)
+    mejor_mariano = sorted(gen.modelos_mariano, key= lambda item: (item.test_accuracy), reverse=True)
+    mejor_landivar = sorted(gen.modelos_landivar, key= lambda item: (item.test_accuracy), reverse=True)
+
+    for i in range(5):
+        print("usac", mejor_usac[i].train_accuracy, mejor_usac[i].test_accuracy)
+        print("marr", mejor_marroquin[i].train_accuracy, mejor_marroquin[i].test_accuracy)
+        print("mari", mejor_mariano[i].train_accuracy, mejor_mariano[i].test_accuracy)
+        print("land", mejor_landivar[i].train_accuracy, mejor_landivar[i].test_accuracy)
+        print("\n")
+
+    Singleton.getInstance().modelo_usac = mejor_usac[0]
+    Singleton.getInstance().modelo_marroquin = mejor_marroquin[0]
+    Singleton.getInstance().modelo_mariano = mejor_mariano[0]
+    Singleton.getInstance().modelo_landivar = mejor_landivar[0]
 
     #print(Singleton.getInstance().modelo_usac.train_accuracy)
     #print(Singleton.getInstance().modelo_marroquin.train_accuracy)
@@ -120,13 +132,13 @@ def generarModelo():
 
         modelos = []
         if gen.universidades[i] == "USAC":
-            modelos = gen.modelos_usac
+            modelos = mejor_usac
         elif gen.universidades[i] == "Marroquin":
-            modelos = gen.modelos_marroquin
+            modelos = mejor_marroquin
         elif gen.universidades[i] == "Mariano":
-            modelos = gen.modelos_mariano
+            modelos = mejor_mariano
         else:
-            modelos = gen.modelos_landivar
+            modelos = mejor_landivar
 
         for j in range(len(modelos)):
             file.write("Modelo " + str(j+1) + "\n" )

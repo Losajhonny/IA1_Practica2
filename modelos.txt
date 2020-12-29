@@ -1,0 +1,96 @@
+#####################################################
+Modelos USAC
+Modelo 1
+Entrenamiento 96.44
+Validacion 86.47
+
+Modelo 2
+Entrenamiento 95.47
+Validacion 84.21
+
+Modelo 3
+Entrenamiento 86.41
+Validacion 81.95
+
+Modelo 4
+Entrenamiento 86.73
+Validacion 80.45
+
+Modelo 5
+Entrenamiento 75.4
+Validacion 66.17
+
+#####################################################
+
+#####################################################
+Modelos Marroquin
+Modelo 1
+Entrenamiento 98.38
+Validacion 92.48
+
+Modelo 2
+Entrenamiento 100.0
+Validacion 90.98
+
+Modelo 3
+Entrenamiento 100.0
+Validacion 90.98
+
+Modelo 4
+Entrenamiento 89.0
+Validacion 88.72
+
+Modelo 5
+Entrenamiento 74.11
+Validacion 72.93
+
+#####################################################
+
+#####################################################
+Modelos Landivar
+Modelo 1
+Entrenamiento 95.47
+Validacion 86.47
+
+Modelo 2
+Entrenamiento 95.79
+Validacion 84.96
+
+Modelo 3
+Entrenamiento 96.12
+Validacion 84.21
+
+Modelo 4
+Entrenamiento 77.99
+Validacion 72.18
+
+Modelo 5
+Entrenamiento 76.7
+Validacion 70.68
+
+#####################################################
+
+#####################################################
+Modelos Mariano
+Modelo 1
+Entrenamiento 93.53
+Validacion 89.47
+
+Modelo 2
+Entrenamiento 92.56
+Validacion 87.97
+
+Modelo 3
+Entrenamiento 86.08
+Validacion 85.71
+
+Modelo 4
+Entrenamiento 76.05
+Validacion 80.45
+
+Modelo 5
+Entrenamiento 75.73
+Validacion 65.41
+
+#####################################################
+
